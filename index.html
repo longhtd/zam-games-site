@@ -11,28 +11,69 @@
 <div class="cta"><a class="btn primary" href="#games">Play our games</a><a class="btn ghost" href="/about/">About the studio</a></div>
 <ul class="chips"><li>7 games</li><li>Free to play</li><li>Made for short sessions</li></ul></div>
 <div class="herovis"><img class="char" src="/wordlodge/assets/hero_1.png" alt=""></div></div></section>
-<section id="games"><div class="wrap"><h2>Our games</h2><div class="ggrid"><a class="gcard" href="/wordlodge/" style="--c:#cfab6e;--d:#241e14">
+<section id="games"><div class="wrap"><h2 id="games-title">Our games</h2><p class="from-sub" id="games-sub" style="display:none">Cozy games by Zamverse — tap any game to explore or get it on Google Play.</p><div class="ggrid"><a class="gcard" data-game="wordlodge" href="/wordlodge/" style="--c:#cfab6e;--d:#241e14">
 <div class="gbg" style="background-image:url('/wordlodge/assets/bg_1.png')"></div><div class="gshade"></div>
 <img class="gicon" src="/wordlodge/assets/icon.png" alt="">
-<div class="gtxt"><h3>Word Lodge</h3><p>Swipe letters, solve cozy word puzzles and travel 35 painted worlds.</p><span class="gmore">View game</span></div></a><a class="gcard" href="/glimmergrove/" style="--c:#6ecf80;--d:#112715">
+<div class="gtxt"><h3>Word Lodge</h3><p>Swipe letters, solve cozy word puzzles and travel 35 painted worlds.</p><span class="gmore">View game</span></div></a><a class="gcard" data-game="glimmergrove" href="/glimmergrove/" style="--c:#6ecf80;--d:#112715">
 <div class="gbg" style="background-image:url('/glimmergrove/assets/bg_1.png')"></div><div class="gshade"></div>
 <img class="gicon" src="/glimmergrove/assets/icon.png" alt="">
-<div class="gtxt"><h3>Glimmer Grove</h3><p>A cozy moonlit garden that keeps growing while you are away.</p><span class="gmore">View game</span></div></a><a class="gcard" href="/snugcats/" style="--c:#cfa56e;--d:#251d14">
+<div class="gtxt"><h3>Glimmer Grove</h3><p>A cozy moonlit garden that keeps growing while you are away.</p><span class="gmore">View game</span></div></a><a class="gcard" data-game="snugcats" href="/snugcats/" style="--c:#cfa56e;--d:#251d14">
 <div class="gbg" style="background-image:url('/snugcats/assets/bg_1.png')"></div><div class="gshade"></div>
 <img class="gicon" src="/snugcats/assets/icon.png" alt="">
-<div class="gtxt"><h3>Snug Cats</h3><p>Place one cat per row, column and blanket. Cats never touch.</p><span class="gmore">View game</span></div></a><a class="gcard" href="/burrowbuddy/" style="--c:#e4b058;--d:#2b200d">
+<div class="gtxt"><h3>Snug Cats</h3><p>Place one cat per row, column and blanket. Cats never touch.</p><span class="gmore">View game</span></div></a><a class="gcard" data-game="burrowbuddy" href="/burrowbuddy/" style="--c:#e4b058;--d:#2b200d">
 <div class="gbg" style="background-image:url('/burrowbuddy/assets/bg_1.png')"></div><div class="gshade"></div>
 <img class="gicon" src="/burrowbuddy/assets/icon.png" alt="">
-<div class="gtxt"><h3>Burrow Buddy</h3><p>Adopt a pet rabbit, then feed, wash and play together in a cozy burrow.</p><span class="gmore">View game</span></div></a><a class="gcard" href="/pixelpicnic/" style="--c:#e1625b;--d:#2b0e0d">
+<div class="gtxt"><h3>Burrow Buddy</h3><p>Adopt a pet rabbit, then feed, wash and play together in a cozy burrow.</p><span class="gmore">View game</span></div></a><a class="gcard" data-game="pixelpicnic" href="/pixelpicnic/" style="--c:#e1625b;--d:#2b0e0d">
 <div class="gbg" style="background-image:url('/pixelpicnic/assets/bg_1.png')"></div><div class="gshade"></div>
 <img class="gicon" src="/pixelpicnic/assets/icon.png" alt="">
-<div class="gtxt"><h3>Pixel Picnic</h3><p>Send hungry ant swarms to eat a pixel picture in colour order.</p><span class="gmore">View game</span></div></a><a class="gcard" href="/styledrop/" style="--c:#d66678;--d:#2b0d12">
+<div class="gtxt"><h3>Pixel Picnic</h3><p>Send hungry ant swarms to eat a pixel picture in colour order.</p><span class="gmore">View game</span></div></a><a class="gcard" data-game="styledrop" href="/styledrop/" style="--c:#d66678;--d:#2b0d12">
 <div class="gbg" style="background-image:url('/styledrop/assets/shot1.png')"></div><div class="gshade"></div>
 <img class="gicon" src="/styledrop/assets/icon.png" alt="">
-<div class="gtxt"><h3>StyleDrop</h3><p>Style a heroine for themed challenges and get scored on your look.</p><span class="gmore">View game</span></div></a><a class="gcard" href="/arrowaway/" style="--c:#24c2aa;--d:#0d2b27">
+<div class="gtxt"><h3>StyleDrop</h3><p>Style a heroine for themed challenges and get scored on your look.</p><span class="gmore">View game</span></div></a><a class="gcard" data-game="arrowaway" href="/arrowaway/" style="--c:#24c2aa;--d:#0d2b27">
 <div class="gbg" style="background-image:url('/arrowaway/assets/bg_1.png')"></div><div class="gshade"></div>
 <img class="gicon" src="/arrowaway/assets/icon.png" alt="">
 <div class="gtxt"><h3>Arrow Away</h3><p>Tap arrows to slide them off the board in the right order.</p><span class="gmore">View game</span></div></a></div></div></section>
+<script>
+(function(){
+  try {
+    var p = new URLSearchParams(window.location.search);
+    var raw = (p.get('from') || p.get('utm_source') || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    var medium = (p.get('utm_medium') || '').toLowerCase();
+    if (!raw) return;
+    var card = document.querySelector('.gcard[data-game="' + raw + '"]') || document.querySelector('.gcard[href="/' + raw + '/"]');
+    if (card) {
+      card.style.display = 'none';
+      var chips = document.querySelectorAll('.chips li');
+      if (chips.length > 0 && chips[0].textContent.indexOf('7') !== -1) {
+        chips[0].textContent = '6 more games';
+      }
+      var title = document.getElementById('games-title');
+      if (title) title.textContent = 'More from Zamverse';
+      var sub = document.getElementById('games-sub');
+      if (sub) sub.style.display = 'block';
+    }
+    var fromApp = (medium === 'app_home' || medium === 'app' || medium === 'in_app' || p.has('from'));
+    if (fromApp) {
+      document.body.classList.add('from-app');
+    }
+    var isAndroid = /android/i.test(navigator.userAgent || '');
+    document.querySelectorAll('.gcard').forEach(function(a) {
+      var g = a.getAttribute('data-game');
+      if (!g || g === raw) return;
+      if (fromApp && isAndroid) {
+        a.setAttribute('href', 'https://play.google.com/store/apps/details?id=com.zamverse.' + g + '&referrer=utm_source%3D' + encodeURIComponent(raw) + '%26utm_medium%3Dmore_games');
+        var more = a.querySelector('.gmore');
+        if (more) more.textContent = 'Get on Google Play \u2192';
+      } else {
+        var href = a.getAttribute('href');
+        if (href && href.indexOf('?') === -1) {
+          a.setAttribute('href', href + '?from=' + encodeURIComponent(raw));
+        }
+      }
+    });
+  } catch (e) {}
+})();
+</script>
 <section><div class="wrap"><h2>How we make games</h2><div class="fgrid"><div class="fcard"><span class="fnum">01</span><h3>Easy to start</h3><p>Every game teaches itself in seconds. No long tutorials and no complicated menus.</p></div><div class="fcard"><span class="fnum">02</span><h3>Made for short sessions</h3><p>Play for two minutes in a queue or an hour on the sofa. Progress is saved on your device.</p></div><div class="fcard"><span class="fnum">03</span><h3>Warm and handmade</h3><p>Hand-painted worlds and small characters you will want to come back to.</p></div><div class="fcard"><span class="fnum">04</span><h3>Respectful by design</h3><p>Free to play, with optional purchases. We collect as little data as we can and explain it plainly in our privacy policy.</p></div></div></div></section>
 <section><div class="wrap two"><div><h2>About Zamverse</h2><p>Zamverse is a small independent game studio from Vietnam. We build puzzle, casual and cozy games for phones, with one idea in mind: a game should feel like a deep breath, not a chore.</p><p>Each of our games starts from a single feeling, such as a quiet cabin, a moonlit garden or a sleepy cat, and we shape the rules, art and music around it.</p><p>We read every email. If something is unclear, broken or could simply be nicer, tell us and we will make it better.</p></div>
 <aside class="getcard"><h3>Say hello</h3><p>Questions, feedback or press enquiries:</p><p><a class="btn primary" href="mailto:support@zamverse.com">support@zamverse.com</a></p></aside></div></section>
