@@ -129,3 +129,54 @@ body.from-app #games{padding-top:32px}
 .gactions{display:flex;gap:10px;align-items:center;margin-top:8px;flex-wrap:wrap}
 .gplay{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:99px;background:var(--c);color:#1b1008;font-weight:800;font-size:13px;text-decoration:none}
 
+
+/* Wall of Honor (assets/honor-wall.js renders into these) */
+[hidden]{display:none!important}
+.honor-status{display:flex;flex-wrap:wrap;gap:4px 18px;align-items:baseline;color:var(--muted);font-size:15px;margin:0 0 14px;min-height:26px}
+.honor-count{font-weight:800;color:var(--ink);font-size:17px}
+.honor-warn{color:var(--ink)}
+.honor-filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px}
+.hchip{font:inherit;font-size:14px;font-weight:700;line-height:1.2;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);padding:9px 14px;border-radius:99px;cursor:pointer;min-height:44px}
+.hchip:hover{border-color:var(--accent)}
+.hchip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#1b1008}
+.hchip:focus-visible,.hbtn:focus-visible,.honorstrip a:focus-visible,.honor-wall a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.honor-wall{min-height:420px}
+.honor-load{color:var(--muted);margin:0}
+.honor-tier{padding:0;margin:0 0 34px}
+.honor-tier h2{font-size:clamp(22px,3vw,28px);margin-bottom:.55em}
+.honor-tier h2 small{font-size:.6em;font-weight:600;color:var(--muted)}
+.hgrid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr));gap:14px}
+.hcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;min-width:0;--rc:#8a7a68}
+.hcard.rank-2{--rc:#7ba3a8}.hcard.rank-3{--rc:#6aa874}.hcard.rank-4{--rc:#9b7bc4}.hcard.rank-5,.hcard.rank-6{--rc:#c9962b}
+.hcard.podium{border-color:#c9962b;box-shadow:inset 0 0 0 1px #c9962b}
+.hname{font-weight:800;font-size:18px;line-height:1.3;margin:0 0 4px;overflow-wrap:anywhere}
+.hname.anon{font-weight:600;font-style:italic;color:var(--muted)}
+.hmeta{margin:0;font-size:14px;line-height:1.5;color:var(--muted);overflow-wrap:anywhere}
+.hbadge{display:inline-flex;align-items:center;gap:7px;font-weight:700;color:var(--ink)}
+.hbadge::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--rc);flex:none}
+.hmore{margin-top:14px}
+.hempty{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px 22px;text-align:center}
+.hempty h2{font-size:clamp(22px,3vw,30px);margin-bottom:.4em}
+.hempty p{max-width:56ch;margin:0 auto 18px;color:var(--muted)}
+.hplay{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.hbtn{border-color:var(--line);background:var(--surface);color:var(--ink);padding:12px 18px}
+.hempty .btn.primary,.hstripmore .btn{border-color:transparent}
+.hempty .btn.primary{background:var(--accent);color:#1b1008}
+.hplay .hbtn:hover{border-color:var(--accent)}
+.honorstrip{padding:44px 0}
+.honorstrip h2{margin-bottom:.3em}
+.honorstrip .sub{color:var(--muted);margin:0 0 18px}
+.honorstrip .honorbody{min-height:150px}
+.honorstrip .hgrid{grid-template-columns:repeat(auto-fill,minmax(min(100%,190px),1fr))}
+.hstripempty p{background:var(--surface);border:1px dashed var(--line);border-radius:var(--radius);padding:20px;margin:0;color:var(--muted)}
+.hstripmore{margin:18px 0 0}
+.hstripmore .btn.hbtn{border-color:var(--line);color:var(--ink);background:var(--surface);font-size:15px}
+.disclosure{color:var(--muted);font-size:15px;max-width:70ch}
+@media (max-width:480px){
+  .bar{gap:10px}
+  .brand{font-size:17px}
+  header.site nav{gap:12px}
+  header.site nav a{font-size:14px}
+}
+.hplay .btn{flex:1 1 220px;max-width:340px}
+.hmeta a,.disclosure a,.honor-load a{color:var(--ink);text-decoration:underline;text-underline-offset:2px}
