@@ -187,3 +187,8 @@ body.from-app #games{padding-top:32px}
 .btn.soon{cursor:default}
 .getcard .qrnote{margin:10px 0 14px}
 .gstatus{color:var(--muted);margin:-10px 0 22px;font-size:16px}
+
+.whatsnew .notesub{color:var(--muted);margin:-8px 0 18px}
+.notes{list-style:none;margin:0;padding:0;display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.notes li{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:14px 18px 14px 44px;line-height:1.5}
+.notes li:before{content:"";position:absolute;left:18px;top:21px;width:10px;height:10px;border-radius:50%;background:var(--accent)}
