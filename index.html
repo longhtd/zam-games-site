@@ -11,7 +11,7 @@
 <div class="cta"><a class="btn primary" href="#games">Play our games</a><a class="btn ghost" href="/about/">About the studio</a></div>
 <ul class="chips"><li>7 games</li><li>Free to play</li><li>Made for short sessions</li></ul></div>
 <div class="herovis"><img class="char" src="/wordlodge/assets/hero_1.png" alt=""></div></div></section>
-<section id="games"><div class="wrap"><h2 id="games-title">Our games</h2><p class="from-sub" id="games-sub" style="display:none">Cozy games by Zamverse — tap any game to explore or get it on Google Play.</p><div class="ggrid"><a class="gcard" data-game="wordlodge" href="/wordlodge/" style="--c:#cfab6e;--d:#241e14">
+<section id="games"><div class="wrap"><h2 id="games-title">Our games</h2><p class="gstatus" id="games-status">Word Lodge is on Google Play now. The other six games are coming soon.</p><p class="from-sub" id="games-sub" style="display:none">Cozy games by Zamverse — tap any game to explore or get it on Google Play.</p><div class="ggrid"><a class="gcard" data-game="wordlodge" href="/wordlodge/" style="--c:#cfab6e;--d:#241e14">
 <div class="gbg" style="background-image:url('/wordlodge/assets/bg_1.png')"></div><div class="gshade"></div><span class="gbadge">On Google Play</span>
 <img class="gicon" src="/wordlodge/assets/icon.png" alt="">
 <div class="gtxt"><h3>Word Lodge</h3><p>A cozy word connect and crossword puzzle with 1,720 levels in 35 worlds. Play offline.</p><span class="gmore">View game</span></div></a><a class="gcard" data-game="glimmergrove" href="/glimmergrove/" style="--c:#6ecf80;--d:#112715">
@@ -49,6 +49,8 @@
       }
       var title = document.getElementById('games-title');
       if (title) title.textContent = 'More from Zamverse';
+      var st = document.getElementById('games-status');
+      if (st) st.style.display = 'none';
       var sub = document.getElementById('games-sub');
       if (sub) sub.style.display = 'block';
     }

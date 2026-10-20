@@ -186,3 +186,4 @@ body.from-app #games{padding-top:32px}
 .btn.soon:hover{transform:none;filter:none}
 .btn.soon{cursor:default}
 .getcard .qrnote{margin:10px 0 14px}
+.gstatus{color:var(--muted);margin:-10px 0 22px;font-size:16px}
