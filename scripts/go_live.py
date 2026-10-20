@@ -19,10 +19,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _site import REPO, load_games, save_games, play_url, probe_play, run, py
 
 
-def flip(slugs, force=False, push=False, dry=False, commit=True, quiet=False):
+def flip(slugs, force=False, push=False, dry=False, commit=True, strict=False):
     d = load_games()
     by = {g["slug"]: g for g in d["games"]}
-    todo = []
+    todo, refused = [], 0
     for s in slugs:
         if s not in by:
             sys.exit("unknown slug %r (known: %s)" % (s, ", ".join(by)))
@@ -34,10 +34,11 @@ def flip(slugs, force=False, push=False, dry=False, commit=True, quiet=False):
         print("%s: Google Play says %s" % (s, why))
         if not ok and not force:
             print("  -> refused: the store page is not live yet (use --force only if the owner says so)")
+            refused += 1
             continue
         todo.append(g)
     if not todo:
-        return 0
+        return 2 if (strict and refused) else 0
     names = [g["name"] for g in todo]
     if dry:
         print("dry run: would flip " + ", ".join(names))
@@ -81,4 +82,4 @@ if __name__ == "__main__":
     ap.add_argument("--force", action="store_true", help="skip the Google Play probe (owner's explicit say-so only)")
     ap.add_argument("--no-commit", action="store_true")
     a = ap.parse_args()
-    sys.exit(flip(a.slugs, a.force, a.push, a.dry_run, not a.no_commit))
+    sys.exit(flip(a.slugs, a.force, a.push, a.dry_run, not a.no_commit, strict=True))
