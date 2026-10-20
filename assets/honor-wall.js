@@ -18,6 +18,8 @@
   var STRIP_COUNT = 6;
   var CACHE_KEY = 'zv_honor_feed_v1';
   var PLAY = 'https://play.google.com/store/apps/details?id=com.zamverse.';
+  // Games whose Google Play listing is live. Others link to their page here until launch.
+  var LIVE_SLUGS = {wordlodge: 1};
   var PLAY_REF = '&referrer=utm_source%3Dgames_site%26utm_medium%3Dhonor_wall';
 
   // Games that have a Wall of Honor (Burrow Buddy, made for families, has none).
@@ -202,6 +204,11 @@
     } catch (e) { return iso; }
   }
   function playLink(game, cls) {
+    if (!LIVE_SLUGS[game.slug]) {
+      var s = el('a', cls || 'btn', game.name + ' (coming soon)');
+      s.href = '/' + game.slug + '/';
+      return s;
+    }
     var a = el('a', cls || 'btn', 'Get ' + game.name + ' on Google Play');
     a.href = PLAY + game.slug + PLAY_REF;
     a.rel = 'noopener';

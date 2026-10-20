@@ -30,7 +30,8 @@
       "minLevel": 1,
       "icon": "Affiliate/Icons/icon_glimmergrove",
       "iconUrl": "https://games.zamverse.com/glimmergrove/assets/icon.png",
-      "packageId": "com.zamverse.glimmergrove"
+      "packageId": "com.zamverse.glimmergrove",
+      "available": false
     },
     {
       "id": "snugcats",
@@ -46,7 +47,8 @@
       "minLevel": 1,
       "icon": "Affiliate/Icons/icon_snugcats",
       "iconUrl": "https://games.zamverse.com/snugcats/assets/icon.png",
-      "packageId": "com.zamverse.snugcats"
+      "packageId": "com.zamverse.snugcats",
+      "available": false
     },
     {
       "id": "burrowbuddy",
@@ -62,7 +64,8 @@
       "minLevel": 1,
       "icon": "Affiliate/Icons/icon_burrowbuddy",
       "iconUrl": "https://games.zamverse.com/burrowbuddy/assets/icon.png",
-      "packageId": "com.zamverse.burrowbuddy"
+      "packageId": "com.zamverse.burrowbuddy",
+      "available": false
     },
     {
       "id": "pixelpicnic",
@@ -78,7 +81,8 @@
       "minLevel": 1,
       "icon": "Affiliate/Icons/icon_pixelpicnic",
       "iconUrl": "https://games.zamverse.com/pixelpicnic/assets/icon.png",
-      "packageId": "com.zamverse.pixelpicnic"
+      "packageId": "com.zamverse.pixelpicnic",
+      "available": false
     },
     {
       "id": "styledrop",
@@ -94,7 +98,8 @@
       "minLevel": 1,
       "icon": "Affiliate/Icons/icon_styledrop",
       "iconUrl": "https://games.zamverse.com/styledrop/assets/icon.png",
-      "packageId": "com.zamverse.styledrop"
+      "packageId": "com.zamverse.styledrop",
+      "available": false
     },
     {
       "id": "arrowaway",
@@ -110,7 +115,8 @@
       "minLevel": 1,
       "icon": "Affiliate/Icons/icon_arrowaway",
       "iconUrl": "https://games.zamverse.com/arrowaway/assets/icon.png",
-      "packageId": "com.zamverse.arrowaway"
+      "packageId": "com.zamverse.arrowaway",
+      "available": false
     }
   ]
 }
