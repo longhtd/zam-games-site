@@ -1,0 +1,60 @@
+{
+  "shots": [
+    {
+      "file": "shot1.webp",
+      "alt": "Glimmer Grove home screen: Pip in a glowing moonlit garden with the Next night button",
+      "caption": "Welcome to your glowing night garden",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot2.webp",
+      "alt": "Glimmer Grove garden with Pip, glowing plants, a Firefly Rhythm bonus and the Garden Shop",
+      "caption": "Chain firefly rhythms for bigger harvests",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot3.webp",
+      "alt": "Glimmer Grove Night: gather the Dew target before dawn while the lantern bar fills",
+      "caption": "Play a Night and light the lanterns",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot4.webp",
+      "alt": "Glimmer Grove Sanctuary Quests: three quest lanes with rewards",
+      "caption": "Always know your next goal",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot5.webp",
+      "alt": "Glimmer Grove Sanctuary and Item Guide explaining plants, boosters and currencies",
+      "caption": "A built-in guide for every plant and boost",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot6.webp",
+      "alt": "Glimmer Grove Grove Shop with a Video Jackpot, a Starter Pack and the No Ads purchase",
+      "caption": "An optional shop, never required",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot7.webp",
+      "alt": "Gardener's Journal map showing the Moonlit Meadow and Crystal Hollow regions",
+      "caption": "Track your grove in the Gardener's Journal",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot8.webp",
+      "alt": "Glimmer Grove Support screen with the optional Wall of Honor for supporters",
+      "caption": "An optional Wall of Honor for supporters",
+      "width": 540,
+      "height": 960
+    }
+  ]
+}

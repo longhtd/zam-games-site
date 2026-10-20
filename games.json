@@ -1,0 +1,142 @@
+{
+  "_comment": "ONE flag per game: games[].live. Everything else (Play button, QR, JSON-LD install URL, badges, hub copy, from-app redirect, offers.json, Wall of Honor links, sitemap) is generated from it by scripts/apply_state.py. Flip with scripts/go_live.py <slug>.",
+  "playBase": "https://play.google.com/store/apps/details?id=",
+  "referrer": "utm_source%3Dgames_site%26utm_medium%3Dlanding",
+  "games": [
+    {
+      "slug": "wordlodge",
+      "name": "Word Lodge",
+      "package": "com.zamverse.wordlodge",
+      "live": true,
+      "liveSince": null,
+      "tagline": "A cozy offline word-connect crossword puzzle: 1,720 levels, 35 worlds, no time limits.",
+      "whatsNew": {
+        "title": "What's new",
+        "sub": "Highlights of this release.",
+        "items": [
+          "Levels 1001 to 1720 rebuilt with fuller word plateaus and a rising finale.",
+          "Finishing level 1720 no longer loops back to level 1: replay any of the last 100 levels.",
+          "A single tap on a tile no longer counts as a wrong word.",
+          "Delete My Data now clears more local data.",
+          "Polish and fixes on Home, Shop, Settings and companion cards."
+        ]
+      }
+    },
+    {
+      "slug": "arrowaway",
+      "name": "Arrow Away",
+      "package": "com.zamverse.arrowaway",
+      "live": false,
+      "liveSince": null,
+      "tagline": "A calm arrow puzzle: 4,000 levels, 100 worlds and ten elemental arrows to clear.",
+      "whatsNew": {
+        "title": "What's new",
+        "sub": "Highlights of this release.",
+        "items": [
+          "4,000 levels in 100 worlds, with fresh boards from level 1.",
+          "Ten elemental arrows: Ember, Tide, Frost, Terra, Gale, Volt, Bloom, Forge, Dusk and Dawn.",
+          "Boss boards with several waves.",
+          "More arrow skins, trails and board themes.",
+          "An Awards screen, left-handed mode and colour-blind cues.",
+          "Bigger text and many fixes."
+        ]
+      }
+    },
+    {
+      "slug": "snugcats",
+      "name": "Snug Cats",
+      "package": "com.zamverse.snugcats",
+      "live": false,
+      "liveSince": null,
+      "tagline": "A calm cat logic puzzle: one cat per row, column and blanket.",
+      "whatsNew": {
+        "title": "What's new",
+        "sub": "Highlights of this release.",
+        "items": [
+          "400 cat logic puzzles, from 4x4 to 11x11.",
+          "A smoother difficulty curve across the whole climb.",
+          "Clearer text, tidier layouts and many small fixes.",
+          "Delete My Data keeps what you bought."
+        ]
+      }
+    },
+    {
+      "slug": "pixelpicnic",
+      "name": "Pixel Picnic",
+      "package": "com.zamverse.pixelpicnic",
+      "live": false,
+      "liveSince": null,
+      "tagline": "A cozy pixel puzzle: send hungry ants to eat colorful pixel art, one layer at a time.",
+      "whatsNew": {
+        "title": "What's new",
+        "sub": "Highlights of this release.",
+        "items": [
+          "Little creatures on the move: ants crawl at a calm pace, bees buzz, butterflies flutter, and every critter carries its bite home to its nest.",
+          "Pictures reveal bite by bite: cells no longer vanish before a critter reaches them.",
+          "Delete My Data also removes your Photo Mode puzzles.",
+          "Layout and polish fixes across Home, Shop and Settings."
+        ]
+      }
+    },
+    {
+      "slug": "styledrop",
+      "name": "Style Drop",
+      "package": "com.zamverse.styledrop",
+      "live": false,
+      "liveSince": null,
+      "tagline": "Watch the runway look, rebuild the outfit, earn five stars: a dress up memory game.",
+      "whatsNew": {
+        "title": "What's new",
+        "sub": "Highlights of this release.",
+        "items": [
+          "12 runway levels plus a new Daily Look, 12 themed style briefs and 41 wardrobe pieces.",
+          "Three models to style: Romy, Wren and Zee.",
+          "Delete My Data keeps your Style Pass.",
+          "The Red Carpet set now includes all five Glam pieces.",
+          "Easier coin pacing on the last three challenges.",
+          "Text and layout fixes."
+        ]
+      }
+    },
+    {
+      "slug": "glimmergrove",
+      "name": "Glimmer Grove",
+      "package": "com.zamverse.glimmergrove",
+      "live": false,
+      "liveSince": null,
+      "tagline": "A cozy idle garden game of glowing plants, garden spirits and 48 moonlit Nights.",
+      "whatsNew": {
+        "title": "What's new",
+        "sub": "Highlights of this release.",
+        "items": [
+          "Nights 9 to 48 each play differently: new wave shapes, storms and Great Gloom nights.",
+          "Fairer rewards: bonus videos pay out only after a real ad, plus Dew balance fixes.",
+          "A clearer shop, quest cards and Item Guide, with many text-fit fixes.",
+          "Delete My Data now also clears Night progress.",
+          "Plays fully offline."
+        ]
+      }
+    },
+    {
+      "slug": "burrowbuddy",
+      "name": "Burrow Buddy",
+      "package": "com.zamverse.burrowbuddy",
+      "live": false,
+      "liveSince": null,
+      "tagline": "Adopt a woodland buddy, cook, decorate and dig deep in a cozy burrow. Plays offline.",
+      "whatsNew": {
+        "title": "What's new",
+        "sub": "Highlights of this release.",
+        "items": [
+          "Quick Mix: cook a dish from your pantry in one tap.",
+          "20 recipes to discover, Chef Combos included.",
+          "Dig Deep: four layers down to 200 m.",
+          "Harvest Moon event with a collectible decor set.",
+          "Soft Mode: a calmer, quieter sound option.",
+          "Clearer text and tidier menus.",
+          "Delete My Data now clears dig progress too."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "shots": [
+    {
+      "file": "shot1.webp",
+      "alt": "Burrow Buddy home screen: a rabbit in a red beanie in the cozy Burrow Hall with care meters",
+      "caption": "Care for your woodland buddy",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot2.webp",
+      "alt": "Burrow Buddy Carrot Catch mini-game: the rabbit catches falling carrots for a combo",
+      "caption": "Catch carrots, win coins",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot3.webp",
+      "alt": "Burrow Buddy Living Quests: three lanes of care goals, a Joy Party and shop cashback",
+      "caption": "Daily Living Quests",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot4.webp",
+      "alt": "Burrow Buddy Dig Deep expedition: the rabbit digging down through the earth",
+      "caption": "Dig deep below the meadow",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot5.webp",
+      "alt": "Burrow Buddy Burrow Shop with a Video Jackpot, a Mystery Box and food",
+      "caption": "Visit the Burrow Shop",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot6.webp",
+      "alt": "Burrow Buddy My buddies screen: Rabbit, Hedgehog and Fox Kit to adopt",
+      "caption": "Pick your buddy",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot7.webp",
+      "alt": "Burrow Buddy wardrobe: hats, scarves, glasses and fur tints on the rabbit",
+      "caption": "Dress up your buddy",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot8.webp",
+      "alt": "Burrow Buddy progress screen with daily goals and a care streak",
+      "caption": "Grow every day",
+      "width": 540,
+      "height": 960
+    }
+  ]
+}

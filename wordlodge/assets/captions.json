@@ -1,0 +1,60 @@
+{
+  "shots": [
+    {
+      "file": "shot1.webp",
+      "alt": "Word Lodge letter wheel and crossword grid with Frosted Tiles on an illustrated lodge background",
+      "caption": "Swipe letters, fill the lodge",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot2.webp",
+      "alt": "Word Lodge level complete card with three stars, coins and a happy deer",
+      "caption": "Earn coins and stars",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot3.webp",
+      "alt": "Word Lodge home screen: a log cabin with woodland companions around the Play button",
+      "caption": "Meet your woodland lodge",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot4.webp",
+      "alt": "Word Lodge quests board with three quest lanes and a patron goal",
+      "caption": "Living quests and rewards",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot5.webp",
+      "alt": "Word Lodge item and mode guide explaining Golden Star Tiles and Word Streak",
+      "caption": "Every tile explained",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot6.webp",
+      "alt": "Word Lodge shop with a welcome bundle, a hint saver and a hint pack",
+      "caption": "Bundles, hints and more",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot7.webp",
+      "alt": "Word Lodge journey map winding through illustrated forest worlds, level 36 of 1,720",
+      "caption": "Travel 35 cozy worlds",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot8.webp",
+      "alt": "Word Lodge Lodge Companions screen with nine collected woodland friends",
+      "caption": "Collect woodland companions",
+      "width": 540,
+      "height": 960
+    }
+  ]
+}

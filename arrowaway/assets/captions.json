@@ -1,0 +1,60 @@
+{
+  "shots": [
+    {
+      "file": "shot1.webp",
+      "alt": "Arrow Away puzzle board on level 62 with three hearts, X-Ray and the Undo, Shield, Lift and Hint buttons",
+      "caption": "Tap arrows with a clear path",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot2.webp",
+      "alt": "Arrow Away level clear screen with three stars, a Perfect rating, coins and a revealed picture piece",
+      "caption": "Clear the board and earn stars",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot3.webp",
+      "alt": "Arrow Away home screen with the Play button, Daily Gift, Quests, Free Chest, Skins and Picture puzzle",
+      "caption": "A cozy home to come back to",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot4.webp",
+      "alt": "Arrow Away level map on world 3, Glacier Glide, showing level 47 of 200",
+      "caption": "100 worlds to travel",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot5.webp",
+      "alt": "Arrow Away Living Quests board with three lanes of goals and rewards",
+      "caption": "Living quests to follow",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot6.webp",
+      "alt": "Arrow Away item and rule encyclopedia explaining goals, gem arrows, blocked paths and cracked stone",
+      "caption": "Every item and rule explained",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot7.webp",
+      "alt": "Arrow Away shop with a one-time starter pack, a free chest, hints and coin packs",
+      "caption": "Optional extras, never required",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot8.webp",
+      "alt": "Arrow Away Wall of Honor where supporters can add their name, with a Support us button",
+      "caption": "An optional Wall of Honor",
+      "width": 540,
+      "height": 960
+    }
+  ]
+}

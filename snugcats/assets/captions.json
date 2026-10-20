@@ -1,0 +1,60 @@
+{
+  "shots": [
+    {
+      "file": "shot1.webp",
+      "alt": "Snug Cats home screen with sleeping cats in the cozy lounge, the level path and the Play button",
+      "caption": "Your cozy cat lounge",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot2.webp",
+      "alt": "Snug Cats puzzle board on level 47 with cats placed, crossed-out squares and colored blankets",
+      "caption": "One cat per row, column and blanket",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot3.webp",
+      "alt": "Snug Cats Smart Hint sheet explaining the next move in plain words",
+      "caption": "Hints that explain the logic",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot4.webp",
+      "alt": "Snug Cats win screen with a Purr-fect banner, three stars and bonus coins",
+      "caption": "Solve it and the cats celebrate",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot5.webp",
+      "alt": "Snug Cats My cats screen with Pepper, Mochi, Ginger, Luna, Biscuit and Shadow, each with a perk",
+      "caption": "Six cats to collect, each with a perk",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot6.webp",
+      "alt": "Snug Cats Nap School list with Luna and six short lessons",
+      "caption": "Learn every trick in Nap School",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot7.webp",
+      "alt": "Snug Cats Daily puzzle card with a 7-day streak and Play today's puzzle button",
+      "caption": "A fresh puzzle every day",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot8.webp",
+      "alt": "Snug Cats Living Quests board with lanes of goals and rewards",
+      "caption": "Living Quests to follow",
+      "width": 540,
+      "height": 960
+    }
+  ]
+}

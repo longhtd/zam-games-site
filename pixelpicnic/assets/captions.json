@@ -1,0 +1,60 @@
+{
+  "shots": [
+    {
+      "file": "shot1.webp",
+      "alt": "Pixel Picnic home screen with the Play button, a mouse host on a gingham blanket, quests and the shop",
+      "caption": "Welcome to the picnic",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot2.webp",
+      "alt": "Pixel Picnic puzzle with a pixel picture being eaten, three waiting slots and swarms to send",
+      "caption": "Send ants, uncover pictures",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot3.webp",
+      "alt": "Pixel Picnic puzzle on a later level showing the layers under the top colors",
+      "caption": "Peek under every layer",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot4.webp",
+      "alt": "Pixel Picnic quest board with a gameplay lane and a video lane",
+      "caption": "Quests to follow",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot5.webp",
+      "alt": "Pixel Picnic item and rules guide explaining the core goal, three-star rules and special baskets",
+      "caption": "Every item explained",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot6.webp",
+      "alt": "Pixel Picnic level complete card with three stars, coins and the Next Level button",
+      "caption": "Earn stars and coins",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot7.webp",
+      "alt": "Pixel Picnic seasonal event, Harvest Glow, with ten pictures and rewards",
+      "caption": "Seasonal picnic events",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot8.webp",
+      "alt": "Pixel Picnic Wall of Honor where supporters can add their name",
+      "caption": "An optional Wall of Honor",
+      "width": 540,
+      "height": 960
+    }
+  ]
+}

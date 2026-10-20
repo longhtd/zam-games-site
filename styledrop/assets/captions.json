@@ -1,0 +1,60 @@
+{
+  "shots": [
+    {
+      "file": "shot1.webp",
+      "alt": "Style Drop home screen: the model on a runway stage with Daily Look, Wardrobe and Quests buttons",
+      "caption": "Your runway home",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot2.webp",
+      "alt": "Style Drop runway level: rebuild the outfit from a tray of pieces before the timer ends",
+      "caption": "Memorize it, then rebuild it",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot3.webp",
+      "alt": "Style Drop dress up room for the City Night brief with a live look score",
+      "caption": "12 themed briefs",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot4.webp",
+      "alt": "Style Drop score reveal for the Red Carpet brief with five stars",
+      "caption": "Earn up to 5 stars",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot5.webp",
+      "alt": "Style Drop daily quests with a 3-lane Quest Board",
+      "caption": "A 3-lane Quest Board",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot6.webp",
+      "alt": "Style Drop Item & Runway Guide explaining the scoring rules",
+      "caption": "Built-in Item & Runway Guide",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot7.webp",
+      "alt": "Style Drop shop with wardrobe pieces sorted by rarity",
+      "caption": "41 wardrobe pieces to collect",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "file": "shot8.webp",
+      "alt": "Style Drop support tab with optional supporter gifts",
+      "caption": "Optional supporter gifts",
+      "width": 540,
+      "height": 960
+    }
+  ]
+}
