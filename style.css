@@ -31,10 +31,10 @@ header.site nav a:hover{color:#fff}
 .hero .shade{position:absolute;inset:0;background:
   radial-gradient(900px 500px at 82% 40%, color-mix(in srgb,var(--accent) 38%,transparent), transparent 70%),
   linear-gradient(105deg, var(--dark) 18%, color-mix(in srgb,var(--dark) 72%,transparent) 62%, color-mix(in srgb,var(--mid) 60%,transparent))}
-.herogrid{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:24px;align-items:center;padding-top:56px;padding-bottom:56px;min-height:560px}
+.herogrid{position:relative;display:grid;grid-template-columns:minmax(0,1fr);gap:36px;align-items:start;padding-top:48px;padding-bottom:64px;min-height:0}
 .hero.slim .wrap{position:relative;padding-top:64px;padding-bottom:64px}
 .hicon{width:84px;height:84px;border-radius:22px;box-shadow:0 10px 30px rgba(0,0,0,.45);margin-bottom:18px}
-.hero h1{font-size:clamp(40px,6.4vw,76px);margin-bottom:.25em;text-shadow:0 4px 30px rgba(0,0,0,.35)}
+.hero h1{font-size:clamp(38px,6vw,72px);margin-bottom:.25em;text-shadow:0 4px 30px rgba(0,0,0,.35)}
 .tag{font-size:clamp(18px,2.2vw,24px);color:#f1e5d6;margin:0 0 16px;max-width:30ch}
 .mission{color:#d9c8b4;max-width:46ch;margin:0 0 22px}
 .eyebrow{text-transform:uppercase;letter-spacing:.18em;font-weight:800;font-size:13px;color:var(--accent);margin:0 0 8px}
@@ -49,8 +49,9 @@ header.site nav a:hover{color:#fff}
 .getcard .btn.soon{border-color:var(--line);color:var(--muted);background:transparent}
 .chips{list-style:none;display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:0}
 .chips li{padding:6px 14px;border-radius:99px;background:rgba(255,255,255,.12);font-size:14px;font-weight:600;color:#f5eadb}
-.herovis{position:relative;display:flex;justify-content:center;align-items:flex-end;min-height:420px}
-.hfeat{width:100%;max-width:560px;height:auto;border-radius:24px;box-shadow:0 24px 50px rgba(0,0,0,.5);border:1px solid rgba(255,255,255,.12);align-self:center}
+.herovis{position:relative;display:flex;justify-content:center;align-items:flex-end;min-height:0}
+.hfeat{width:100%;max-width:none;height:auto;border-radius:28px;box-shadow:0 30px 70px rgba(0,0,0,.55),0 0 90px color-mix(in srgb,var(--accent) 32%,transparent);border:1px solid rgba(255,255,255,.16);align-self:center;transition:transform .4s ease}
+.hfeat:hover{transform:scale(1.008)}
 .char{max-height:560px;width:auto;filter:drop-shadow(0 24px 40px rgba(0,0,0,.5));animation:float 6s ease-in-out infinite}
 @keyframes float{50%{transform:translateY(-12px)}}
 
