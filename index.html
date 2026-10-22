@@ -5,9 +5,7 @@
 <meta property="og:image" content="https://games.zamverse.com/wordlodge/assets/feature.png?v=2"><meta name="theme-color" content="#241e14">
 <link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/style.css">
 <style>:root{--accent:#cfab6e;--dark:#241e14;--mid:#493c28}</style><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Zamverse","url":"https://games.zamverse.com/","logo":"https://games.zamverse.com/favicon.png","email":"support@zamverse.com","sameAs":["https://www.facebook.com/zamverse.official"]}</script></head>
-<body><header class="site"><div class="wrap bar"><a class="brand" href="/">Zamverse <span>Games</span></a><nav><a href="/">Games</a><a href="/honor/">Honor</a><a href="https://quiz.zamverse.com/">🔮 Quizzes</a><a href="https://darling.zamverse.com/">📺 Manga Hub</a><a href="https://zamverse.com/">🌐 Portal</a></nav></div></header><div id="zv-reader-reward-banner" style="display:none;background:linear-gradient(90deg,#1e293b,#0f172a);border-bottom:2px solid #f59e0b;color:#fff;padding:12px 20px;text-align:center;font-size:15px;font-weight:700">
-  <span>🎁 <strong>VIP Reader &amp; Quiz Bonus Unlocked!</strong> Use giftcode <code id="zv-giftcode-val" style="background:#f59e0b;color:#090d16;padding:3px 9px;border-radius:6px;font-weight:900;margin:0 4px">ZAM777</code> inside any Zamverse game or join our <a href="https://t.me/zamverse" target="_blank" rel="noopener" style="color:#38bdf8;text-decoration:underline">Telegram</a> &amp; <a href="https://www.facebook.com/zamverse.official" target="_blank" rel="noopener" style="color:#38bdf8;text-decoration:underline">Facebook Page</a> for +250 Bonus Coins!</span>
-</div>
+<body><header class="site"><div class="wrap bar"><a class="brand" href="/">Zamverse <span>Games</span></a><nav><a href="/">Games</a><a href="/honor/">Honor</a><a href="https://quiz.zamverse.com/">🔮 Quizzes</a><a href="https://darling.zamverse.com/">📺 Manga Hub</a><a href="https://zamverse.com/">🌐 Portal</a></nav></div></header>
 <section class="hero studio" style="background-color:var(--dark)"><div class="shade"></div><div class="wrap herogrid">
 <div class="herotxt"><p class="eyebrow">Zamverse</p><h1>Cozy games for short, calm moments.</h1><p class="tag">Zamverse is an independent studio making simple, beautiful mobile games you can enjoy in a few minutes.</p>
 <div class="cta"><a class="btn primary" href="#games">Play our games</a><a class="btn ghost" href="/about/">About the studio</a></div>
@@ -39,13 +37,6 @@
 (function(){
   try {
     var p = new URLSearchParams(window.location.search);
-    var giftCode = p.get('code') || (p.get('from') ? 'ZAM777' : '');
-    if (giftCode) {
-      var rb = document.getElementById('zv-reader-reward-banner');
-      var rc = document.getElementById('zv-giftcode-val');
-      if (rc) rc.textContent = giftCode.toUpperCase();
-      if (rb) rb.style.display = 'block';
-    }
     var raw = (p.get('from') || p.get('utm_source') || '').toLowerCase().replace(/[^a-z0-9]/g, '');
     var medium = (p.get('utm_medium') || '').toLowerCase();
     if (!raw) return;
