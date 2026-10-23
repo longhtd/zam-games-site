@@ -19,7 +19,7 @@
   var CACHE_KEY = 'zv_honor_feed_v1';
   var PLAY = 'https://play.google.com/store/apps/details?id=com.zamverse.';
   // Games whose Google Play listing is live. Others link to their page here until launch.
-  var LIVE_SLUGS = {wordlodge: 1};
+  var LIVE_SLUGS = {wordlodge: 1, arrowaway: 1, snugcats: 1, pixelpicnic: 1, styledrop: 1, glimmergrove: 1, burrowbuddy: 1};
   var PLAY_REF = '&referrer=utm_source%3Dgames_site%26utm_medium%3Dhonor_wall';
 
   // Games that have a Wall of Honor (Burrow Buddy, made for families, has none).
