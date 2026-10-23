@@ -17,7 +17,7 @@ errs, warns = [], []
 E = lambda m: errs.append(m)
 W = lambda m: warns.append(m)
 
-pages = sorted(p for p in repo.rglob("*.html") if ".git" not in p.parts)
+pages = sorted(p for p in repo.rglob("*.html") if ".git" not in p.parts and not p.name.startswith("google"))
 ids_by_page = {}
 for p in pages:
     ids_by_page[p] = set(re.findall(r'\bid="([^"]+)"', p.read_text(encoding="utf-8")))
